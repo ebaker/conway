@@ -19,4 +19,7 @@ def get_adjacent(cell):
     return set(adjacent_cells)
 
 def lives_on(cell, live_cells):
-    pass
+    adjacent_cells = get_adjacent(cell)
+    live_adjacent_cells = adjacent_cells.intersection(live_cells)
+    result = bool(len(live_adjacent_cells))
+    return result
