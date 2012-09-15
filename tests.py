@@ -1,8 +1,10 @@
 import unittest
+from conway import tick
 
 class FirstTest(unittest.TestCase):
     def test_one(self):
-        pass
+        pairs = []
+        assert tick(pairs) == []
 
 
 
