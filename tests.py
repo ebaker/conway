@@ -1,9 +1,10 @@
 import unittest
-from conway import tick
+from conway import next_step
 
 class FirstTest(unittest.TestCase):
-    def test_one(self):
-        pass
+    def test_empty(self):
+        pairs = []
+        assert next_step(pairs) == []
 
 
 

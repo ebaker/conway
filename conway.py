@@ -1,2 +1,2 @@
-def tick(pairs):
+def next_step(pairs):
     pass
