@@ -1,2 +1,3 @@
 def next_step(pairs):
-    pass
+    if pairs == []:
+        return []

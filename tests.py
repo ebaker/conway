@@ -6,7 +6,9 @@ class FirstTest(unittest.TestCase):
         pairs = []
         assert next_step(pairs) == []
 
-
+    def test_single(self):
+        pairs = [(0, 0)]
+        assert next_step(pairs) == []
 
 
 
