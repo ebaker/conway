@@ -1,3 +1,3 @@
 def next_step(pairs):
-    if pairs == []:
+    if len(pairs) <= 2:
         return []
