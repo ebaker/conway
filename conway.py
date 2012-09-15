@@ -17,3 +17,6 @@ def get_adjacent(cell):
             adjacent_cells.append(adjacent_cell)
     
     return set(adjacent_cells)
+
+def lives_on(cell, live_cells):
+    pass
